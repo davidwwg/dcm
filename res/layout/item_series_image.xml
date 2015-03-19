@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/width_80"
+    android:layout_height="@dimen/height_80"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/idcm_image"
+        android:layout_width="@dimen/width_80"
+        android:layout_height="@dimen/height_80"
+        android:background="@drawable/normal_bg"
+        android:padding="@dimen/split_1_px" />
+
+    <TextView
+        android:id="@+id/idcm_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/margin_2"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_12" />
+
+</RelativeLayout>

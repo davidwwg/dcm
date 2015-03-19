@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dicom_display_header"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_44"
+    android:background="@color/black_deep" >
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="@dimen/width_44"
+        android:layout_height="match_parent"
+        android:padding="@dimen/padding_10"
+        android:src="@drawable/back_bg_selector" />
+
+    <TextView
+        android:id="@+id/index"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/margin_5"
+        android:layout_toRightOf="@+id/back"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_20"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/play"
+        android:layout_width="@dimen/width_44"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:padding="@dimen/padding_10"
+        android:src="@drawable/play_bg_selector" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/split_1"
+        android:layout_alignParentBottom="true"
+        android:background="@color/black" />
+
+</RelativeLayout>

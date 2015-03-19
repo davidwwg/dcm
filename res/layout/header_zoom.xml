@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_44"
+    android:background="@color/black_deep"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/z_cancel"
+        android:layout_width="@dimen/width_44"
+        android:layout_height="match_parent"
+        android:src="@drawable/cancel_bg_selector"
+        android:padding="@dimen/padding_10" />
+
+    <ImageView
+        android:id="@+id/z_confirm"
+        android:layout_width="@dimen/width_44"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/confirm_bg_selector"
+        android:padding="@dimen/padding_10" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/split_1"
+        android:layout_alignParentBottom="true"
+        android:background="@color/black" />
+
+</RelativeLayout>

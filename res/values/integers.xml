@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="anim_normal">400</integer>
+    <integer name="anim_speed">350</integer>
+    <integer name="anim_fragment">250</integer>
+    <integer name="moon_layout_weight_top">1</integer>
+    <integer name="moon_layout_weight_bottom">1</integer>
+</resources>

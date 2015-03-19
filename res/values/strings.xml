@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- tips -->
+    <string name="waiting_hint">请稍等......</string>
+    <string name="app_name">iDCM</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="date_range">日期范围</string>
+    <string name="dicom_type">影像类型</string>
+    <string name="report_status">报告状态</string>
+    <string name="patient_name">病人姓名</string>
+    <string name="hosp_number">住院号</string>
+    <string name="outp_number">门诊号</string>
+    <string name="patient_id">病人ID</string>
+    <string name="check_id">检查ID</string>
+    <string name="operation_number">操作号</string>
+    <string name="all">全部</string>
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+    <string name="all_selected">全选</string>
+    <string name="all_no_selected">全不选</string>
+    <string name="no_apply">未申请</string>
+    <string name="applyed">已申请</string>
+    <string name="no_check">未审核</string>
+    <string name="checked">已审核</string>
+    <string name="dicom_zoom">缩放/平移</string>
+    <string name="dicom_rotate">旋转</string>
+    <string name="dicom_negative">反显</string>
+    <string name="dicom_measure">测量</string>
+    <string name="dicom_reset">复位</string>
+    <string name="dicom_switch">切换图像</string>
+    <string name="dicom_export">导出图像</string>
+    <string name="series">序列</string>
+    <string name="edit">编辑</string>
+    <string name="more">更多</string>
+
+    <!--  -->
+    <string name="dicom_list">影像列表</string>
+    <string name="dicom_image">影像</string>
+    <string name="local_read">本地读取</string>
+    <string name="personal">个人</string>
+    <string name="password_modify">密码修改</string>
+    <string name="about">关于</string>
+    <string name="version_update">版本更新</string>
+    <string name="feedback">意见反馈</string>
+    <string name="about_us">关于我们</string>
+    <string name="system">系统</string>
+    <string name="serve_setting">服务器设置</string>
+    <string name="clear_cache">清空缓存</string>
+    <string name="logout">退出当前用户</string>
+
+    <!-- more -->
+    <string name="diagnosis">诊断</string>
+    <string name="view_app_form">查看申请单</string>
+    <string name="diagnosis_report">诊断报告</string>
+    <string name="other">其他</string>
+    <string name="export_image">导出图片</string>
+    <string name="clear_mark">清空标注</string>
+
+    
+    <!-- xlistview -->
+     <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    
+    
+    <string name="decoding">解析中...</string>
+</resources>

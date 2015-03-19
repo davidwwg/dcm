@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="main_color">#FF512828</color>
+    
+    <!-- background color -->
+    <color name="background_color">#FFf6f5ec</color>
+    <color name="black_background">#323232</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparentpop">#50000000</color>
+    <color name="transparenthalf">#80000000</color>
+
+    <!-- color definition -->
+    <!-- white -->
+    <color name="white">#ffffff</color>
+    <color name="l_white">#f0f0f0</color>
+    <color name="white_transparent">#80ffffff</color>
+    <color name="white_smoke">#e6e6e6</color>
+
+    <!-- black -->
+    <color name="black">#000000</color>
+    <color name="black_transparent">#aa000000</color>
+    <color name="black_deep">#FF4b4b4b</color>
+
+    <!-- top menu -->
+    <color name="menu_back">#FF415462</color>
+    <color name="menu_text_gray">#FF7896A0</color>
+    <color name="menu_text_light">#FF41C0AC</color>
+
+    <!-- split line -->
+    <color name="split_line">#FF819CC9</color>
+
+    <!-- Gray -->
+    <color name="pale_gray">#f5f5f5</color>
+    <!-- 230 230 230 -->
+    <color name="light_gray">#FFE6E6E6</color>
+    <!-- 200 200 200 -->
+    <color name="light_gray_2">#FFC8C8C8</color>
+    <color name="switch_gray">#FFD3D3D3</color>
+    <color name="switch_deep_gray">#FF505050</color>
+    <color name="switch_deep_gray_2">#FF969696</color>
+    <!-- 180 180 180 -->
+    <color name="light_gray_3">#FFB4B4B4</color>
+    <!-- 150 150 150 -->
+    <color name="middle_gray">#FF969696</color>
+    <!-- 100 100 100 -->
+    <color name="deep_gray">#FF646464</color>
+    <color name="deep_gray_pressed">#FF6E6E6E</color>
+    <!-- 75 75 75 -->
+    <color name="deep_gray_2">#FF4B4B4B</color>
+    <color name="deep_gray_2_pressed">#FF555555</color>
+
+    <!-- pink red -->
+    <color name="red">#FFd71345</color>
+    <color name="light_red">#FFF14472</color>
+    <color name="thin_purple">#FF9b95c9</color>
+    <color name="purple">#FFafb4db</color>
+    <color name="light_red_pressed">#FFF020A6</color>
+    <color name="light_pink">#FFF2BDCB</color>
+    <!-- 242 68 114 -->
+    <color name="hot_pink">#F24472</color>
+
+    <!-- green -->
+    <color name="green">#FF45b97c</color>
+    <color name="light_green">#FF41C0AC</color>
+    <color name="light_green_pressed">#FF27D8D4</color>
+    <color name="switch_green">#FF039D9A</color>
+    <color name="deep_green">#FF597E8D</color>
+    <color name="deep_green_1">#FF418293</color>
+
+    <!-- yellow -->
+
+    <color name="yellow">#FFffd400</color>
+    <color name="yellow_deep">#FFfdb933</color>
+    <color name="gold">#b89766</color>
+    <color name="light_yellow">#fefc7c</color>
+
+    <!-- blue -->
+    <color name="blue">#FF2894FF</color>
+
+    <!-- orange -->
+    <color name="orange">#fd7b30</color>
+
+    <!-- first page -->
+    <color name="prompt_text_color">#FF969696</color>
+    <color name="normal_text_color">#FF646464</color>
+    <color name="hind_text_color">#FFC8C8C8</color>
+
+    <!-- left top title -->
+    <color name="left_top_back_color">#FF597E8D</color>
+    <color name="text_gray">#646464</color>
+
+    <!-- monitor -->
+    <color name="book_background_green">#a1f5d6</color>
+    <color name="book_text_color_green">#039d91</color>
+    <color name="calendar_date_selected">#039d9A</color>
+    <color name="calendar_background">#323232</color>
+    <color name="book_phone_selected">#ffe6e6</color>
+
+    <!-- focus border color -->
+    <color name="focus_color">#FFF14472</color>
+
+    <!-- seek bar -->
+    <color name="seek_bar_progress">#FF7896a0</color>
+    <color name="blue_light">#FF5299ea</color>
+    <color name="user_logout">#d71345</color>
+
+    
+    <color name="line_rect_color">#FF78331e</color>
+    <color name="line_text_color">#FFfdb933</color>
+    
+    
+    <color name="background_dialog">#99000000</color>
+</resources>

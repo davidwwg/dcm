@@ -1,0 +1,56 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="Window.Animation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/anim_window_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/anim_window_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/anim_window_close_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/anim_window_close_out</item>
+        <!--
+        <item name="android:windowEnterAnimation">@anim/appear</item> 
+        <item name="android:windowExitAnimation">@anim/disappear</item> 
+        
+        <item name="android:fragmentOpenEnterAnimation">@anim/anim_fragment_in</item>
+        <item name="android:fragmentOpenExitAnimation">@anim/anim_fragment_out</item>
+        <item name="android:fragmentCloseEnterAnimation">@anim/anim_fragment_close_in</item>
+        <item name="android:fragmentCloseExitAnimation">@anim/anim_fragment_close_out</item>
+        <item name="android:fragmentFadeEnterAnimation">@anim/anim_fragment_in</item>
+        <item name="android:fragmentFadeExitAnimation">@anim/anim_fragment_in</item>
+        <item name="android:activityCloseEnterAnimation">@anim/anim_window_close_in</item>
+
+        <item name="android:activityCloseExitAnimation">@anim/anim_window_close_out</item>
+        -->
+    </style>
+
+    <style name="Window.DialogAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+
+    <style name="PopSeriesAnimation">
+        <item name="android:windowEnterAnimation">@anim/anim_pop_series_in</item>
+        <item name="android:windowExitAnimation">@anim/anim_pop_series_out</item>
+    </style>
+
+    <style name="PopFilterAnimation">
+        <item name="android:windowEnterAnimation">@anim/anim_slide_from_top</item>
+        <item name="android:windowExitAnimation">@anim/anim_slide_from_bottom</item>
+    </style>
+
+</resources>

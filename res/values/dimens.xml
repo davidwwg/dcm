@@ -1,0 +1,98 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Image -->
+    <dimen name="image_size_44">44dp</dimen>
+    <dimen name="image_size_80">80dp</dimen>
+    <dimen name="image_size_70">70dp</dimen>
+    <dimen name="image_size_60">60dp</dimen>
+    <dimen name="image_size_90">90dp</dimen>
+    
+    <!-- Height value -->
+    <dimen name="height_5">5dp</dimen>
+    <dimen name="height_10">10dp</dimen>
+    <dimen name="height_20">20dp</dimen>
+    <dimen name="height_25">25dp</dimen>
+    <dimen name="height_30">30dp</dimen>
+    <dimen name="height_36">36dp</dimen>
+    <dimen name="height_40">40dp</dimen>
+    <dimen name="height_44">44dp</dimen>
+    <dimen name="height_50">50dp</dimen>
+    <dimen name="height_55">55dp</dimen>
+    <dimen name="height_60">60dp</dimen>
+    <dimen name="height_65">65dp</dimen>
+    <dimen name="height_70">70dp</dimen>
+    <dimen name="height_80">80dp</dimen>
+    <dimen name="height_100">100dp</dimen>
+    <dimen name="height_132">132dp</dimen>
+    <dimen name="height_120">120dp</dimen>
+    <dimen name="split_1">1dp</dimen>
+    <dimen name="split_1_px">1px</dimen>
+
+    <!-- Width value -->
+    <dimen name="width_120">120dp</dimen>
+    <dimen name="width_240">240dp</dimen>
+    <dimen name="width_180">180dp</dimen>
+    <dimen name="width_140">140dp</dimen>
+    <dimen name="width_160">160dp</dimen>
+    <dimen name="width_200">200dp</dimen>
+    <dimen name="width_100">100dp</dimen>
+    <dimen name="width_86">86dp</dimen>
+    <dimen name="width_80">80dp</dimen>
+    <dimen name="width_70">70dp</dimen>
+    <dimen name="width_65">65dp</dimen>
+    <dimen name="width_60">60dp</dimen>
+    <dimen name="width_20">20dp</dimen>
+    <dimen name="width_25">25dp</dimen>
+    <dimen name="width_30">30dp</dimen>
+    <dimen name="width_36">36dp</dimen>
+    <dimen name="width_55">55dp</dimen>
+    <dimen name="width_50">50dp</dimen>
+    <dimen name="width_45">45dp</dimen>
+    <dimen name="width_44">44dp</dimen>
+    <dimen name="width_40">40dp</dimen>
+    <dimen name="width_10">10dp</dimen>
+    <dimen name="width_5">5dp</dimen>
+
+    <!-- Margin -->
+    <dimen name="margin_2">2dp</dimen>
+    <dimen name="margin_5">5dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_15">15dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_30">30dp</dimen>
+    <dimen name="margin_25">25dp</dimen>
+    <dimen name="margin_40">40dp</dimen>
+    <dimen name="margin_65">65dp</dimen>
+    <dimen name="margin_100">100dp</dimen>
+
+    <!-- Padding -->
+    <dimen name="padding_2">2dp</dimen>
+    <dimen name="padding_4">4dp</dimen>
+    <dimen name="padding_5">5dp</dimen>
+    <dimen name="padding_8">8dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="padding_12">12dp</dimen>
+    <dimen name="padding_15">15dp</dimen>
+    <dimen name="padding_20">20dp</dimen>
+
+    <!-- Text Size -->
+    <dimen name="text_size_10">10sp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="text_size_13">13sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_15">15sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+
+    <!-- slide -->
+    <dimen name="slidingmenu_offset">60dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+
+    <integer name="num_cols">1</integer>
+</resources>

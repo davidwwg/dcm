@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Activities>
+
+    <Activity
+        id="A_IDCM_001"
+        name="image.medical.idcm.edit.IDCMEditActivity" >
+    </Activity>
+    <Activity
+        id="A_IDCM_002"
+        name="image.medical.idcm.edit.IDCMMoreActivity" >
+    </Activity>
+    <Activity
+        id="A_IDCM_003"
+        name="image.medical.idcm.storage.IDCMListActivity" >
+    </Activity>
+
+</Activities>

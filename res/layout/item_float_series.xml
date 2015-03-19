@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="@dimen/width_70"
+        android:layout_height="@dimen/height_70"
+        android:padding="@dimen/padding_5" >
+
+        <LinearLayout
+            android:id="@+id/thumb_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/series_thumb"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/margin_2" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/dicom_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/margin_2"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_10" />
+    </RelativeLayout>
+
+</LinearLayout>

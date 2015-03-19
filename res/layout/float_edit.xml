@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/padding_10"
+        android:paddingTop="@dimen/padding_5"
+        android:paddingLeft="@dimen/padding_5"
+        android:paddingRight="@dimen/padding_10" >
+
+        <LinearLayout
+            android:id="@+id/zoom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/edit_selector"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_4" >
+
+            <ImageView
+                android:layout_width="@dimen/width_30"
+                android:layout_height="@dimen/height_30"
+                android:src="@drawable/zoom" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dicom_zoom"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_12" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/measure"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/edit_selector"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_4" >
+
+            <ImageView
+                android:layout_width="@dimen/width_30"
+                android:layout_height="@dimen/height_30"
+                android:src="@drawable/measure" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dicom_measure"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_12" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rotate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/edit_selector"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_4" >
+
+            <ImageView
+                android:layout_width="@dimen/width_30"
+                android:layout_height="@dimen/height_30"
+                android:src="@drawable/rotate" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dicom_rotate"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_12" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/negative"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/edit_selector"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_4" >
+
+            <ImageView
+                android:layout_width="@dimen/width_30"
+                android:layout_height="@dimen/height_30"
+                android:src="@drawable/negative" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dicom_negative"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_12" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/reset"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/edit_selector"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_4" >
+
+            <ImageView
+                android:layout_width="@dimen/width_30"
+                android:layout_height="@dimen/height_30"
+                android:src="@drawable/reset" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dicom_reset"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_12" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

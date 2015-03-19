@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/header_normal" />
+
+    <image.medical.idcm.widgets.XListView
+        android:id="@+id/xlist_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="@color/transparent"
+        android:dividerHeight="@dimen/split_1_px"
+        android:fadingEdge="none" >
+    </image.medical.idcm.widgets.XListView>
+
+</LinearLayout>
